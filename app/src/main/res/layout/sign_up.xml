@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+              android:layout_height="match_parent"
+                tools:context=".Registration">
+
+    <EditText
+            android:text=""
+            android:hint="First name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:id="@+id/firstName_signup"/>
+
+    <EditText
+            android:text=""
+            android:hint="Last name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/firstName_signup"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:id="@+id/lastName_signup"/>
+
+<!--    <EditText-->
+<!--            android:text=""-->
+<!--            android:hint="Postal address"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@+id/lastName"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:layout_marginLeft="80dp"-->
+<!--            android:layout_marginRight="80dp"-->
+<!--            android:id="@+id/address"/>-->
+
+    <EditText
+            android:text=""
+            android:hint="Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lastName_signup"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:id="@+id/email_signup"/>
+
+<!--    <EditText-->
+<!--            android:text=""-->
+<!--            android:hint="Username"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@+id/email"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:layout_marginLeft="80dp"-->
+<!--            android:layout_marginRight="80dp"-->
+<!--            android:id="@+id/username"/>-->
+
+    <EditText
+            android:text=""
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/email_signup"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:id="@+id/password_signup"/>
+
+    <android.widget.Button
+            android:text="Registration"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/registration"
+            android:background="@drawable/setback_bg"
+            android:layout_below="@+id/password_signup"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginTop="20dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Have an Account?"
+            android:layout_below="@+id/registration"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="100dp"
+            android:id="@+id/account"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red"
+            android:text="Sign In?"
+            android:layout_below="@+id/registration"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="220dp"
+            android:id="@+id/signIn"/>
+<!--    <EditText-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:inputType="textPassword"-->
+<!--            android:ems="10"-->
+<!--            android:id="@+id/editTextTextPassword2"/>-->
+
+
+</RelativeLayout>

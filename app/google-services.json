@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "479056183558",
+    "project_id": "diylog-368ea",
+    "storage_bucket": "diylog-368ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479056183558:android:431d41ca629942d5001e87",
+        "android_client_info": {
+          "package_name": "com.example.diylog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "479056183558-bl0k43flme5is8disna0gne0r7guhlaf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.diylog",
+            "certificate_hash": "e00e3c56a871130fbd49e39ea3d456033f90736c"
+          }
+        },
+        {
+          "client_id": "479056183558-sem1ka3eija5m2bhdimum3tm7g57kd3k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvNwI91nqDboKBe1kEAipeArMSIwhhImU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "479056183558-sem1ka3eija5m2bhdimum3tm7g57kd3k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">DIYLog</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="quote_1">Day One Log</string>
+    <string name="author_1">author</string>
+    <string name="date_1">2022-12-03</string>
+    <string name="quote_2">I want to put a ding in the universe!</string>
+    <string name="quote_3">People don\'t know what they want until you show it to them.</string>
+    <string name="quote_4">The only way to be truly satisfied is to do what you believe is great work.</string>
+    <string name="quote_5">When something is important enough, you do it even if the odds are not in your favor</string>
+    <string name="quote_6">Success isn\'t always about greatness. It\'s about consistency. Consistent hard work leads to success. Greatness will come.</string>
+    <string name="quote_7">It\'s fine to celebrate success, but it is more important to heed the lessons of failure.</string>
+    <string name="quote_8">People can be really smart or have skills that are directly applicable, but if they don’t really believe in it, then they are not going to really work hard.</string>
+    <string name="quote_9">It\'s far better to buy a wonderful company at a fair price, than a fair company at a wonderful price.</string>
+    <string name="quote_10">Wear your failures as a badge of honor.</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version ="1.0" encoding ="utf-8"?><!--  Learn More about how to use App Actions: https://developer.android.com/guide/actions/index.html -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:state_selected="true"
+            android:drawable="@drawable/love" />
+    <item
+            android:state_selected="false"
+            android:drawable="@drawable/heart" />
+
+    <item
+            android:state_selected="true"
+            android:drawable="@drawable/bookmark_3" />
+    <item
+            android:state_selected="false"
+            android:drawable="@drawable/bookmark_2" />
+
+
+</selector>
